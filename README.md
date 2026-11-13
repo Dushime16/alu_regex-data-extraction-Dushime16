@@ -28,8 +28,8 @@ alu_regex-data-extraction-YourUsername/
 Requirements: Python 3 and Git. No extra packages are needed.
 
 ```
-git clone https://github.com/YourUsername/alu_regex-data-extraction-YourUsername.git
-cd alu_regex-data-extraction-YourUsername
+git clone https://github.com/Dushime16/alu_regex-data-extraction-Dushime16.git
+cd alu_regex-data-extraction-Dushime16
 ```
 
 ## Usage
