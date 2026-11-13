@@ -17,7 +17,7 @@ PATTERNS = {
     "credit_cards": r"\b\d{4}([ -])\d{4}\1\d{4}\1\d{4}\b",
 
     # 14:30 (24-hour) and 2:30 PM (12-hour)
-    "times": r"\b(?:(?:[01]?\d|2[0-3]):[0-5]\d|(?:0?[1-9]|1[0-2]):[0-5]\d\s?[AaPp][Mm])\b",
+    "times": r"\b(?:(?:0?[1-9]|1[0-2]):[0-5]\d\s?[AaPp][Mm]|(?:[01]?\d|2[0-3]):[0-5]\d)\b",
 
     # <p>, <div class="example">, <img src="image.jpg" alt="description">
     "html_tags": r"<[A-Za-z][A-Za-z0-9]*(?:\s+[^<>]*)?/?>",
