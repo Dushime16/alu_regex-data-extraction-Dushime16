@@ -13,14 +13,15 @@ A Python program that uses regular expressions to extract data from text.
 - Hashtags
 - Currency amounts
 
-## Project structure
+## Project files are;
 
 ```
-extractor.py        # regex patterns and functions
-main.py             # menu program: run on sample file or on your own text
-test_extractor.py   # tests for each data type
-sample_input.txt    # sample input text
-```
+alu_regex-data-extraction-YourUsername/
+├── extractor.py        # all the regex patterns and the functions
+├── main.py             # runs the program and prints the results
+├── test_extractor.py   # tests for every data type
+├── sample_input.txt    # sample text to try the program on
+└── README.md           # this file
 
 ## Setup
 
